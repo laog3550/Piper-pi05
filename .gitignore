@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ROS2 / colcon
+build/
+install/
+log/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+
+# Local environment overrides and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Machine-specific hardware identity
+config/piper_can_map.conf
+
+# Test and analysis caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+.coverage

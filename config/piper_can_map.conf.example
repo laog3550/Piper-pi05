@@ -1,0 +1,8 @@
+# Piper role       Linux interface  USB adapter serial             bitrate
+#
+# Copy this file to piper_can_map.conf and replace every SERIAL_FOR_* value
+# with the matching adapter's ID_SERIAL_SHORT. The real file is Git-ignored.
+master_left        can_ml           SERIAL_FOR_MASTER_LEFT          1000000
+master_right       can_mr           SERIAL_FOR_MASTER_RIGHT         1000000
+follower_left      can_fl           SERIAL_FOR_FOLLOWER_LEFT        1000000
+follower_right     can_fr           SERIAL_FOR_FOLLOWER_RIGHT       1000000
