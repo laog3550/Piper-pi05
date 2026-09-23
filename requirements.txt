@@ -1,0 +1,11 @@
+# Core Python dependencies for the Piper ROS 2 Humble workspace.
+#
+# piper_ros/humble currently imports piper_sdk. pyAgxArm is installed in
+# parallel for later migration/evaluation; changing the control backend is out
+# of scope for the environment bootstrap stage.
+python-can==4.6.1
+scipy==1.8.0
+typing-extensions==4.16.0
+cffi==1.17.1
+piper_sdk==0.6.2
+pyAgxArm @ git+https://github.com/agilexrobotics/pyAgxArm.git@841a625f5f4920e776f20b934eb13048b747e6d0
